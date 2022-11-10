@@ -3,7 +3,7 @@ package com.example.service;
 import com.example.data.Authorities;
 import com.example.exception.InvalidCredentials;
 import com.example.exception.UnauthorizedUser;
-import com.example.exception.UnauthizesUser;
+import com.example.repository.UserRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
