@@ -2,6 +2,7 @@ package com.example.repository;
 
 import com.example.data.Authorities;
 import com.example.data.User;
+import org.springframework.stereotype.Repository;
 
 import java.util.Arrays;
 import java.util.List;
@@ -10,6 +11,8 @@ import java.util.concurrent.ConcurrentHashMap;
 
 import static com.example.data.Authorities.*;
 
+
+@Repository
 public class UserRepository {
 
     private Map<String, User> users = new ConcurrentHashMap<>();
